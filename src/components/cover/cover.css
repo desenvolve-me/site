@@ -1,0 +1,30 @@
+.fixed-bg {    
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home_cover_container {
+    width: 100%;
+    overflow: hidden;
+}
+  
+.cover_image_overlay{
+    position: absolute;
+    width: 100%;
+    background: black;
+    font-size: 38px;
+    opacity: 0.5;
+}
+
+.big_padding_on_top{
+    padding-top: 50px;
+}
+
+.cover_image{
+    object-fit: cover;
+    opacity: 0.4;
+    width: 100%;
+}
