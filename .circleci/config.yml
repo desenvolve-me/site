@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+     
+      # build the application image
+      - run: docker build -t desenvolveme/site:$(git rev-parse --short HEAD) .
+
+      # login in dockerhub
+      - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+      # push the image
+      - run: docker push desenvolveme/site:$(git rev-parse --short HEAD)
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - qa
+                - master

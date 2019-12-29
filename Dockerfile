@@ -8,6 +8,8 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install
+RUN yarn 
 
-CMD npm start
+RUN yarn build
+
+CMD yarn start

@@ -80,7 +80,7 @@ const objectionsTopicList = [
   {
     title: "Instrutor para orientar nas aulas",
     subItens: [
-      "Aprenda com quem programadores do mercado",
+      "Aprenda com quem trabalha no mercado",
       "Nada de aulas gravadas, aprenda com uma pessoa real!",
     ]
   },
