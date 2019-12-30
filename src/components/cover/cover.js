@@ -5,11 +5,9 @@ import './cover.css'
 const Cover = (props) => {
     var coverDynamicStyle = {
         backgroundImage: `url(${props.backgroundImage})`,
-        height: window.innerHeight,
     }
 
     var coverImageOverlayDynamicStyle = {
-        height: window.innerHeight,
         position: "absolute",
     }
 

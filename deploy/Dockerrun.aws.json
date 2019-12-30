@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-        "Name": "desenvolveme/site:bb668ed",
+        "Name": "desenvolveme/site:1152eee",
         "Update": "true"
     },
     "Ports": [

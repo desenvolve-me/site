@@ -1,5 +1,6 @@
 .fixed-bg {    
     width: 100%;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,6 +15,7 @@
 .cover_image_overlay{
     position: absolute;
     width: 100%;
+    height: 100vh;
     background: black;
     font-size: 38px;
     opacity: 0.5;
